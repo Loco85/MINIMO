@@ -1,0 +1,154 @@
+doctype html
+html(lang="en")
+	head
+		meta(name="viewport", content="width=device-width, initial-scale=1.0, user-scalable=no")
+		meta(charset="UTF-8")
+		title Single Page
+		link(rel="stylesheet", href="./css/bootstrap.min.css")
+	body
+		section.navbar-section
+			nav.navbar.navbar-expand-lg.navbar-light.d-flex.justify-content-between
+				div.align-self-start
+					a.navbar-brand(href="/")
+						img(src="img/logo.png", alt="")
+				div.col-sm-7
+					div.collapse.navbar-collapse#navbarNav
+						ul.navbar-nav.d-flex.justify-content-between
+							li.nav-item.active
+								a.nav-link(href="/lifestyle.html") Lifestyle
+							li.nav-item
+								a.nav-link(href="/photodiary.html") Photodiary
+							li.nav-item
+								a.nav-link(href="#") Music
+							li.nav-item
+								a.nav-link(href="#") Travel
+				div.align-self-start.d-lg-none
+					button.navbar-toggler(type="button", data-toggle="collapse", data-target="#navbarNav", aria-controls="navbarNav")
+						span.navbar-toggler-icon
+		section.details-section
+			img(src="./img/photodiary-img-1.jpg", alt="")
+			div.row
+				div.col-sm-12
+					div.details-section__text
+						h6 Photodiary
+						h1 The perfect weekend getaway
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <b>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</b>, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga atque non molestias tempora accusamus officia beatae illum nihil, nobis quia repellat consequuntur cum voluptatem quae magnam iste, libero doloremque! Aperiam.
+						img(src="./img/perfect-weekend-img-1.jpg", alt="")
+						img(src="./img/perfect-weekend-img-2.jpg", alt="")
+						img(src="./img/perfect-weekend-img-3.jpg", alt="")
+						i “Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.” 
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <b>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</b>. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+					div.details-section__share.d-flex.justify-content-end.align-items-center
+						div
+							h6 Share
+						div
+							ul.list-inline
+								li.list-inline-item
+									a(href="#")
+										img(src="./img/facebook-icon-2.png", alt="")
+								li.list-inline-item
+									a(href="#")
+										img(src="./img/twitter-icon-2.png", alt="")
+								li.list-inline-item
+									a(href="#")
+										img(src="./img/google-plus-icon.png", alt="")
+								li.list-inline-item
+									a(href="#")
+										img(src="./img/t.png", alt="")
+								li.list-inline-item
+									a(href="#")
+										img(src="./img/pinterest-icon.png", alt="")
+		section.similar-section.d-flex.justify-content-center
+			div.similar-section__inner.col-sm-11
+				div.col
+					h6 You may also like
+				div.d-flex.flex-lg-row.flex-column
+					div.col-lg-4.similar-section__block
+						div.card.flex-column.justify-content-between
+							div.card-img.d-flex.justify-content-center.align-items-center
+								a(href="#")
+									img(src="./img/lifestyle-img-4.jpg", alt="")
+							div.card-text
+								h4
+									a(href="#") Cold winter days
+					div.col-lg-4.similar-section__block
+						div.card.flex-column.justify-content-between
+							div.card-img.d-flex.justify-content-center.align-items-center
+								a(href="#")
+									img(src="./img/photodiary-img-3.jpg", alt="")
+							div.card-text
+								h4
+									a(href="#") A day exploring the Alps
+					div.col-lg-4.similar-section__block
+						div.card.flex-column.justify-content-between
+							div.card-img.d-flex.justify-content-center.align-items-center
+								a(href="#")
+									img(src="./img/photodiary-img-2.jpg", alt="")
+							div.card-text
+								h4
+									a(href="#") American dream
+		section.comments-section.d-flex.justify-content-center
+			div.col-lg-10.col-sm-11
+				div.col
+					h6 2 comments
+				div.col
+					div.row.comments-section__block
+						div.col-sm-2.col-lg-1
+							div.comments-section__icon.d-flex.flex-column.justify-content-center.align-items-center
+								span as
+						div.col-sm-10.col-lg-11.comments-section__text
+							div.comments-section__name Alex Simpson
+							p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo!
+							div.comments-section__reply
+								a(href="#") Reply
+					div.row.comments-section__block
+						div.col-sm-2.col-lg-1
+							div.comments-section__icon.d-flex.flex-column.justify-content-center.align-items-center
+								span jd
+						div.col-sm-10.col-lg-11.comments-section__text
+							div.comments-section__name John Doe
+							p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo!
+							div.comments-section__reply
+								a(href="#") Reply
+					div.row.comments-section__form
+						div.col-sm-2.col-lg-1
+							div.comments-section__form-icon.d-flex.flex-column.justify-content-center.align-items-center
+								span jd
+						div.col-sm-10.col-lg-11
+							div.form-group
+								input.form-control(type="text", placeholder="Join the descussion")
+							div.form-group.d-flex.justify-content-sm-end.justify-content-center
+								div.comments-section__submit
+									a(href="#") Connect with
+								div.comments-section__social-icons
+									ul.list-inline
+										li.list-inline-item
+											a(href="#")
+												img(src="./img/twitter-icon-2.png", alt="")
+										li.list-inline-item
+											a(href="#")
+												img(src="./img/facebook-icon.png", alt="")
+		section.footer-section
+			div.footer-section__inner.d-flex.flex-sm-row.flex-column.justify-content-sm-between.justify-content-center
+				div.col-md-8.footer-section__block
+					ul.list-inline.d-flex.flex-sm-row.flex-column
+						li.list-inline-item
+							a(href="#") Terms and conditions
+						li.list-inline-item
+							a(href="#") Privacy
+				div.col-md-4.footer-section__block
+					ul.list-inline
+						li.list-inline-item
+							span Fallow
+						li.list-inline-item
+							a(href="#")
+								img(src="./img/facebook-icon.png", alt="")
+						li.list-inline-item
+							a(href="#")
+								img(src="./img/twitter-icon.png", alt="")
+						li.list-inline-item
+							a(href="#")
+								img(src="./img/instagram-icon.png", alt="")
+		script(type="text/javascript", src="./js/jquery.min.js")
+		script(type="text/javascript", src="./js/bootstrap.min.js")

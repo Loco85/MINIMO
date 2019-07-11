@@ -1,0 +1,134 @@
+doctype html
+html(lang="en")
+	head
+		meta(name="viewport", content="width=device-width, initial-scale=1.0, user-scalable=no")
+		meta(charset="UTF-8")
+		title Home Page
+		link(rel="stylesheet", href="./css/bootstrap.min.css")
+	body
+		section.navbar-section
+			nav.navbar.navbar-expand-lg.navbar-light.d-flex.justify-content-between
+				div.align-self-start
+					a.navbar-brand(href="/")
+						img(src="img/logo.png", alt="")
+				div.col-sm-7
+					div.collapse.navbar-collapse#navbarNav
+						ul.navbar-nav.d-flex.justify-content-between
+							li.nav-item.active
+								a.nav-link(href="/lifestyle.html") Lifestyle
+							li.nav-item
+								a.nav-link(href="/photodiary.html") Photodiary
+							li.nav-item
+								a.nav-link(href="#") Music
+							li.nav-item
+								a.nav-link(href="#") Travel
+				div.align-self-start.d-lg-none
+					button.navbar-toggler(type="button", data-toggle="collapse", data-target="#navbarNav", aria-controls="navbarNav")
+						span.navbar-toggler-icon
+		section.details-section
+			img(src="./img/photodiary-img-1.jpg", alt="")
+			div.details-section__text
+				h6 Photodiary
+				h1 The perfect weekend getaway
+				p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+				a(href="#") Leave a comment
+		section.cards-section
+			div.row
+				div.col-lg-6.card-section__block
+					div.card.flex-column.justify-content-between
+						div.card-img.d-flex.justify-content-center.align-items-center
+							a(href="#")
+								img(src="./img/lifestyle-img-1.jpg", alt="")
+						div.card-text
+							a(href="#").card-cat Lifestyle
+							h1.card-title
+								a(href="#") More than just a music festival
+							p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit fugiat nesciunt officia in, velit amet ratione commodi quibusdam, aperiam mollitia repellat illo quia iusto tenetur quae accusantium dicta praesentium nisi?
+				div.col-lg-6.card-section__block
+					div.card.flex-column.justify-content-between
+						div.card-img.d-flex.justify-content-center.align-items-center
+							a(href="#")
+								img(src="./img/lifestyle-img-2.jpg", alt="")
+						div.card-text
+							a(href="#").card-cat Lifestyle
+							h1.card-title
+								a(href="#") Life tastes better with coffee
+							p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolor nesciunt mollitia debitis consequatur maxime asperiores corporis saepe? Ea culpa quis itaque vitae, totam illum eius repudiandae quam nam deleniti!
+				div.col-lg-6.card-section__block
+					div.card.flex-column.justify-content-between
+						div.card-img.d-flex.justify-content-center.align-items-center
+							a(href="#")
+								img(src="./img/photodiary-img-2.jpg", alt="")
+						div.card-text
+							a(href="#").card-cat Photodiary
+							h1.card-title
+								a(href="#") American dream
+							p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit fugiat nesciunt officia in, velit amet ratione commodi quibusdam, aperiam mollitia repellat illo quia iusto tenetur quae accusantium dicta praesentium nisi?
+				div.col-lg-6.card-section__block
+					div.card.flex-column.justify-content-between
+						div.card-img.d-flex.justify-content-center.align-items-center
+							a(href="#")
+								img(src="./img/photodiary-img-3.jpg", alt="")
+						div.card-text
+							a(href="#").card-cat Photodiary
+							h1.card-title
+								a(href="#") A day exploring the Alps
+							p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolor nesciunt mollitia debitis consequatur maxime asperiores corporis saepe? Ea culpa quis itaque vitae, totam illum eius repudiandae quam nam deleniti!
+		section.subscribe-section.d-flex.justify-content-center
+			div.subscribe-section__form
+				div.form-group
+					h1 Sign up for our newsletter!
+				div.form-group.d-flex.justify-content-center
+					input.form-control(type="text", placeholder="Enter valid email address")
+					button.btn.btn-secondary
+						img(src="./img/submit-arrow.png", alt="")
+		section.cards-section
+			div.row
+				div.col-lg-6.card-section__block
+					div.card.flex-column.justify-content-between
+						div.card-img.d-flex.justify-content-center.align-items-center
+							a(href="#")
+								img(src="./img/lifestyle-img-3.jpg", alt="")
+						div.card-text
+							a(href="#").card-cat Lifestyle
+							h1.card-title
+								a(href="#") Top 10 songs for running
+							p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolor nesciunt mollitia debitis consequatur maxime asperiores corporis saepe? Ea culpa quis itaque vitae, totam illum eius repudiandae quam nam deleniti!
+				div.col-lg-6.card-section__block
+					div.card.flex-column.justify-content-between
+						div.card-img.d-flex.justify-content-center.align-items-center
+							a(href="#")
+								img(src="./img/lifestyle-img-4.jpg", alt="")
+						div.card-text
+							a(href="#").card-cat Lifestyle
+							h1.card-title
+								a(href="#") Cold winter days
+							p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolor nesciunt mollitia debitis consequatur maxime asperiores corporis saepe? Ea culpa quis itaque vitae, totam illum eius repudiandae quam nam deleniti!
+				div.col-12
+					div.cards-section__load-btn.d-flex.justify-content-center
+						button.btn.btn-outline-secondary(type="button") Load more
+		section.footer-section
+			div.footer-section__inner.d-flex.flex-sm-row.flex-column.justify-content-sm-between.justify-content-center
+				div.col-md-8.footer-section__block
+					ul.list-inline.d-flex.flex-sm-row.flex-column
+						li.list-inline-item
+							a(href="#") Terms and conditions
+						li.list-inline-item
+							a(href="#") Privacy
+				div.col-md-4.footer-section__block
+					ul.list-inline
+						li.list-inline-item
+							span Fallow
+						li.list-inline-item
+							a(href="#")
+								img(src="./img/facebook-icon.png", alt="")
+						li.list-inline-item
+							a(href="#")
+								img(src="./img/twitter-icon.png", alt="")
+						li.list-inline-item
+							a(href="#")
+								img(src="./img/instagram-icon.png", alt="")
+		script(type="text/javascript", src="./js/jquery.min.js")
+		script(type="text/javascript", src="./js/bootstrap.min.js")
+
+	
